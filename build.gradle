@@ -2,8 +2,10 @@ apply plugin: 'java'
 
 task build.doLast{
         println 'Hello build world!'
+        println 'Hello build - here is master'
 }
 
 task assemble.doLast{
         println 'Hello assemble world!'
+        println 'Hello assemble - here is master'
 }
