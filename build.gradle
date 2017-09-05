@@ -1,9 +1,11 @@
 apply plugin: 'java' 
 
 task build.doLast{
+        println 'Hello build - branch here'
         println 'Hello build world!'
 }
 
 task assemble.doLast{
+        println 'Hello assemble - branch here'
         println 'Hello assemble world!'
 }
