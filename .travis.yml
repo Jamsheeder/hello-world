@@ -4,4 +4,4 @@ notifications:
     slack: infoforyamsheed:IHx2sDdup7xEpvmWTYRJrpEP
     
 script:
-    - ./gradlew clean
+    - ./gradlew clean build
